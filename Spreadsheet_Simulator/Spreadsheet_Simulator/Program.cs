@@ -11,9 +11,9 @@ namespace Spreadsheet_Simulator
         static void Main(string[] args)
         {
             Matrix matrix = new Matrix(2,2);
-            Console.WriteLine("Enter the table cells:\n");
+            Console.WriteLine("Enter the table cells:");
             matrix.Fill();
-            Console.WriteLine("Filled table:\n");
+            Console.WriteLine("\nFilled table:\n");
             matrix.Print();
 
 
