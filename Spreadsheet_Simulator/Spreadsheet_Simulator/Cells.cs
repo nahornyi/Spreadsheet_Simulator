@@ -8,7 +8,7 @@ namespace Spreadsheet_Simulator
 {
     class Cells
     {
-        String cell;
+        protected String cell;
 
         //Возвращает пустую ячейку
         public bool IsNullOrEmpty()

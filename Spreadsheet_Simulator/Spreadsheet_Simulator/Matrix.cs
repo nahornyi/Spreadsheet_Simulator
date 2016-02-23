@@ -8,15 +8,22 @@ namespace Spreadsheet_Simulator
 {
     class Matrix
     {
-        private int n;
-        private int m;
-        private string [,] arr;
+        public int n;
+        public int m;
+        public string [,] arr;
 
         //Конструктор задания размерности таблицы
         public Matrix(int _n, int _m)
         {
             n = _n;
             m = _m;
+        }
+
+        public Matrix(Matrix matrix)
+        {
+            n = matrix.n;
+            m = matrix.m;
+            arr = matrix.arr;
         }
 
         //Метод заполнения таблицы размерностью nxm

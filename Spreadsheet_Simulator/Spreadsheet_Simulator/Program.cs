@@ -16,6 +16,8 @@ namespace Spreadsheet_Simulator
             Console.WriteLine("\nFilled table:\n");
             matrix.Print();
 
+            Expression expression = new Expression(matrix);
+
 
             Console.ReadKey();
         }
