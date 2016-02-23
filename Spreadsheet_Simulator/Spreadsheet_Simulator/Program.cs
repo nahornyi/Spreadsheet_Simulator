@@ -10,6 +10,14 @@ namespace Spreadsheet_Simulator
     {
         static void Main(string[] args)
         {
+            Matrix matrix = new Matrix(2,2);
+            Console.WriteLine("Enter the table cells:\n");
+            matrix.Fill();
+            Console.WriteLine("Filled table:\n");
+            matrix.Print();
+
+
+            Console.ReadKey();
         }
     }
 }
